@@ -1,25 +1,25 @@
-### Proyecto Zuber: Análisis de Viajes en Chicago 🚕  
+### Zuber Project: Chicago Ride-Sharing Analysis 🚕  
 
-**Descripción**: Este proyecto analiza las pautas de los pasajeros de la empresa Zuber en Chicago. El objetivo principal fue comprender las preferencias de los clientes y el impacto de factores externos, como el clima, en la duración de los viajes.
+**Description**: This project analyzes passenger ride patterns for the ride-sharing company Zuber in Chicago. The primary objective was to understand customer preferences and the impact of external factors, such as weather conditions, on trip duration.
 
-**Desafíos y Habilidades Aplicadas:**
+**Challenges and Applied Skills:**
 
-Extracción de Datos Web (Scraping): Se obtuvieron datos meteorológicos de un sitio externo para correlacionarlos con los registros de viajes.
+Web Scraping: Extracted meteorological data from an external source to correlate it with ride records.
 
-Análisis SQL Avanzado: Se realizaron uniones (JOIN) complejas para vincular barrios (barrios como Loop y O'Hare) con registros de clima y duración de trayectos.
+Advanced SQL Analysis: Performed complex JOINs to link neighborhoods (such as the Loop and O'Hare) with weather records and trip durations.
 
-Prueba de Hipótesis Estadística: Utilicé Python para realizar un test de hipótesis sobre si la duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia durante los días lluviosos.
+Statistical Hypothesis Testing: Used Python to conduct a hypothesis test to determine whether the average trip duration from the Loop to O'Hare International Airport changes significantly on rainy days.
 
-**Hallazgos Clave:**
+**Key Findings:**
 
-Impacto del Clima: Se confirmó mediante un análisis estadístico que las condiciones meteorológicas afectan significativamente la duración de los viajes, permitiendo a Zuber optimizar sus tarifas dinámicas.
+Weather Impact: Confirmed through statistical analysis that weather conditions significantly affect trip duration, allowing Zuber to optimize its surge pricing model.
 
-Zonas de Alta Demanda: Identifiqué los barrios con mayor frecuencia de viajes, lo que ayuda en la redistribución de la flota de conductores.
+High-Demand Zones: Identified the neighborhoods with the highest trip frequency, which assists in the strategic redistribution of the driver fleet.
 
-**Stack Tecnológico:**
+**Tech Stack:**
 
-Lenguajes: Python (Pandas, Scipy para tests estadísticos).
+Languages: Python (Pandas, SciPy for statistical testing).
 
-Base de Datos: SQL (PostgreSQL/MySQL).
+Databases: SQL (PostgreSQL/MySQL).
 
-Herramientas: Jupyter Notebooks, Visual Studio Code.
+Tools: Jupyter Notebooks, Visual Studio Code..
